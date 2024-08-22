@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="barber_red">#AB292C</color>
+    <color name="barber_blue">#FF0099CC</color>
+    <color name="barber_grey1">#2FC9CCD0</color>
+    <color name="barber_grey2">#2F909295</color>
+    <color name="transperant">#00909295</color>
+
+
+
+
+
+</resources>

@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name" translatable="false">Barber Book</string>
+    <string name="choose_haircut">Haircuts Catalog</string>
+    <string name="korean_perm">Korean Perm</string>
+    <string name="curly_mullet">Curly Mullet</string>
+    <string name="short_mullet">Short Mullet</string>
+    <string name="center_part_mullet">Cener Part\n Mullet</string>
+    <string name="spiky_mullet">Spiky Mullet</string>
+    <string name="medium_mullet">Medium Mullet</string>
+    <string name="wavy_mullet">Wavy Mullet</string>
+
+
+
+    <string name="choose_button">Choose</string>
+    <string name="profile_image">Profile Image</string>
+    <string name="welcome_message">Hi, Welcome Back.</string>
+    <string name="user_name">Israel Israeli</string>
+    <string name="upcoming_appointments">Upcoming appointments:</string>
+    <string name="go_back">Go Back</string>
+    <string name="barber_name">Barbers Name</string>
+    <string name="appointment_time">2:00 PM</string>
+    <string name="customer_name">Israel Israeli</string>
+    <string name="cancel">Cancel</string>
+    <string name="calendar_icon">Calendar Icon</string>
+    <string name="new_appointment">New Appointment</string>
+    <string name="available_time_slots">Available Time Slots</string>
+    <string name="time_slot_1">10:00 AM</string>
+    <string name="time_slot_2">11:00 AM</string>
+    <string name="time_slot_3">12:00 AM</string>
+    <string name="set_appointment">Set Appointment</string>
+    <string name="sign_in_label">SIGN IN</string>
+    <string name="email_hint">email</string>
+    <string name="password_hint">password</string>
+    <string name="sign_in_button">Sign In</string>
+    <string name="new_user">New user?</string>
+    <string name="sign_up_here">Sign Up here.</string>
+    <string name="sign_up_label">SIGN UP</string>
+    <string name="full_name_hint">Full Name</string>
+    <string name="phone_number_hint">Phone Number</string>
+    <string name="submit_button">Submit</string>
+    <string name="your_information">Your Information</string>
+    <string name="email_label">Email</string>
+    <string name="email_label_info">Email:</string>
+    <string name="name_label_info">Name:</string>
+
+    <string name="password_label">Password</string>
+
+    <string name="phone_label">Phone:</string>
+    <string name="book_new_appointment">Book A New Appointment</string>
+    <string name="your_appointments">Your Appointments</string>
+    <string name="catalog">Catalog</string>
+
+
+    <string name="barber_upcoming_appointments">View upcoming appointments</string>
+    <string name="barber_rating">Rating:</string>
+    <string name="user_rating">Rate Your Barber</string>
+    <string name="userType_client">Client</string>
+    <string name="userType_barber">Barber</string>
+    <string name="Submit_rating">Submit Rating</string>
+    <string name="close">Close</string>
+
+
+
+
+    <string name="sign_out">Sign Out</string>
+    <string name="im_ready_button">Im Ready</string>
+    <string name="date_text">Date</string>
+    <string name="date_label">Date:</string>
+    <string name="time_label">Time:</string>
+    <string name="cancel_button">Cancel</string>
+</resources>

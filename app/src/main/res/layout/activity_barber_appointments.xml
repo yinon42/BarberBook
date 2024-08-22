@@ -1,0 +1,123 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background"
+    android:padding="16dp">
+
+    <!-- Back Button -->
+    <Button
+        android:id="@+id/barberApp_BTN_backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/go_back"
+        android:fontFamily="serif"
+        android:backgroundTint="@color/barber_red"
+        android:textColor="@android:color/white"
+        android:layout_marginEnd="8dp" />
+
+    <!-- Barber's Name -->
+    <TextView
+        android:id="@+id/barberApp_TXT_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/barber_name"
+        android:textSize="26sp"
+        android:textColor="@color/black"
+        android:fontFamily="serif"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/barberApp_BTN_backButton"
+        android:gravity="center"
+        android:layout_marginTop="8dp"/>
+
+
+
+    <!-- Upcoming Appointments Title -->
+    <TextView
+        android:id="@+id/barberApp_LBL_upcomingAppointments"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/upcoming_appointments"
+        android:textSize="22dp"
+        android:textColor="@color/black"
+        android:fontFamily="serif"
+        android:layout_below="@+id/barberApp_TXT_name"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- ScrollView for Appointment List -->
+    <ScrollView
+        android:id="@+id/barberApp_scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/barberApp_LBL_upcomingAppointments">
+
+        <LinearLayout
+            android:id="@+id/barberApp_appointmentList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Example Appointment Item -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="8dp"
+                android:background="@color/barber_grey1"
+                android:layout_marginBottom="8dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:contentDescription="@string/calendar_icon"/>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+
+                    android:orientation="vertical"
+                    android:layout_marginStart="8dp"
+                    android:layout_gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/barberApp_TXT_appointmentTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/appointment_time"
+                        android:textSize="20dp"
+                        android:fontFamily="serif"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:id="@+id/barberApp_TXT_customerName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fadeScrollbars="true"
+                        android:text="@string/user_name"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"/>
+                </LinearLayout>
+
+
+
+                <Button
+                    android:id="@+id/barberApp_BTN_cancelButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cancel_button"
+                    android:textColor="@color/white"
+                    android:textSize="18dp"
+                    android:backgroundTint="@color/barber_red"
+                    android:fontFamily="serif"
+                    android:layout_gravity="center_vertical"/>
+
+            </LinearLayout>
+
+            <!-- Repeat the above LinearLayout block for each appointment item -->
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

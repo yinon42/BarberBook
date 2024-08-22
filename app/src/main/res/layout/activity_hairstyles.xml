@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/catalog_BTN_backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/go_back"
+            android:fontFamily="serif"
+            android:textSize="16dp"
+
+            android:backgroundTint="@color/barber_red"
+            android:textColor="@android:color/white"
+            android:layout_marginEnd="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/choose_haircut"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:textColor="@color/barber_blue"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+            <ImageView
+                android:id="@+id/korean_perm"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:src="@drawable/korean_perm"
+                android:scaleType="fitCenter" />
+
+            <TextView
+                android:id="@+id/korean_perm_LBL"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/korean_perm"
+                android:fontFamily="serif"
+                android:textStyle="bold"
+                android:textSize="18dp"
+
+                android:layout_gravity="center_vertical"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+            <ImageView
+                android:id="@+id/curly_mullet"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:src="@drawable/curly_mullet"
+                android:scaleType="fitCenter" />
+
+            <TextView
+                android:id="@+id/curly_mullet_LBL"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/curly_mullet"
+                android:fontFamily="serif"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:layout_gravity="center_vertical"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+            <ImageView
+                android:id="@+id/short_mullet"
+
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:src="@drawable/short_mullet"
+                android:scaleType="fitCenter" />
+
+            <TextView
+                android:id="@+id/short_mullet_LBL"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/short_mullet"
+                android:fontFamily="serif"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_gravity="center_vertical"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+            <ImageView
+                android:id="@+id/center_part_mullet"
+
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:src="@drawable/center_part_mullet"
+                android:scaleType="fitCenter" />
+
+
+            <TextView
+                android:id="@+id/center_part_mullet_LBL"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/center_part_mullet"
+                android:fontFamily="serif"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_gravity="center_vertical"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+            <ImageView
+                android:id="@+id/spiky_mullet"
+
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:src="@drawable/spiky_mullet"
+                android:scaleType="fitCenter" />
+
+            <TextView
+                android:id="@+id/spiky_mullet_LBL"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/spiky_mullet"
+                android:fontFamily="serif"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_gravity="center_vertical"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+            <ImageView
+                android:id="@+id/medium_mullet"
+
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:src="@drawable/medium_mullet"
+                android:scaleType="fitCenter" />
+
+
+            <TextView
+                android:id="@+id/medium_mullet_LBL"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/medium_mullet"
+                android:textSize="18dp"
+                android:fontFamily="serif"
+                android:textStyle="bold"
+                android:layout_gravity="center_vertical"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+            <ImageView
+                android:id="@+id/wavy_mullet"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:src="@drawable/wavy_mullet"
+                android:scaleType="fitCenter" />
+
+
+            <TextView
+                android:id="@+id/wavy_mullet_LBL"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/wavy_mullet"
+                android:fontFamily="serif"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_gravity="center_vertical"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

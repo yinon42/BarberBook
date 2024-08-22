@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="choose_haircut">קטלוג תספורת</string>
+    <string name="korean_perm">סלסול קוריאני</string>
+    <string name="curly_mullet">מולט מסולסל</string>
+
+    <string name="center_part_mullet">מולט עם\n שביל אמצעי</string>
+    <string name="spiky_mullet">מולט קוצני</string>
+    <string name="medium_mullet">מולט בינוני</string>
+    <string name="wavy_mullet">מולט גלי</string>
+
+    <string name="short_mullet">מולט קצר</string>
+    <string name="choose_button">בחר</string>
+    <string name="profile_image">תמונת פרופיל</string>
+    <string name="welcome_message">היי, ברוך שובך.</string>
+    <string name="user_name">ישראל ישראלי</string>
+    <string name="upcoming_appointments">פגישות קרובות:</string>
+    <string name="go_back">חזור</string>
+    <string name="barber_name">שם הספר</string>
+    <string name="appointment_time">14:00</string>
+    <string name="customer_name">ישראל ישראלי</string>
+    <string name="cancel">בטל</string>
+    <string name="calendar_icon">אייקון לוח שנה</string>
+    <string name="new_appointment">תור חדש</string>
+    <string name="available_time_slots">שעות פנויות</string>
+    <string name="time_slot_1">10:00</string>
+    <string name="time_slot_2">11:00</string>
+    <string name="time_slot_3">12:00</string>
+    <string name="set_appointment">קבע תור</string>
+    <string name="sign_in_label">התחבר</string>
+    <string name="email_hint">דוא\"ל</string>
+    <string name="password_hint">סיסמה</string>
+    <string name="sign_in_button">התחבר</string>
+    <string name="new_user">משתמש חדש?</string>
+    <string name="catalog">קטלוג</string>
+
+
+    <string name="barber_upcoming_appointments">תורים עתידיים</string>
+    <string name="barber_rating">דירוג:</string>
+    <string name="user_rating">דרג את הספר שלך</string>
+
+    <string name="userType_client">לקוח</string>
+    <string name="userType_barber">ספר</string>
+    <string name="Submit_rating">בצע </string>
+    <string name="close">סגור</string>
+
+
+    <string name="sign_up_here">הירשם כאן.</string>
+    <string name="sign_up_label">הירשם</string>
+    <string name="full_name_hint">שם מלא</string>
+    <string name="phone_number_hint">מספר טלפון</string>
+    <string name="submit_button">הירשם</string>
+    <string name="your_information">המידע שלך</string>
+    <string name="email_label">דוא\"ל</string>
+    <string name="email_label_info">דוא\"ל:</string>
+    <string name="name_label_info">שם:</string>
+
+    <string name="phone_label">טלפון:</string>
+    <string name="book_new_appointment">קבע תור חדש</string>
+    <string name="your_appointments">הפגישות שלך</string>
+    <string name="sign_out">התנתק</string>
+    <string name="im_ready_button">אני מוכן</string>
+    <string name="password_label">סיסמא</string>
+
+    <string name="date_text">תאריך</string>
+    <string name="date_label">תאריך:</string>
+    <string name="time_label">שעה:</string>
+    <string name="cancel_button">בטל</string>
+</resources>
